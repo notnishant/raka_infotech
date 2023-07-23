@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.margin {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.main {
+}
+
+.page1 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #0077b6;
+}
+#nav {
+  height: 100px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+#nav h4 {
+  font-size: 13px;
+  font-weight: 400;
+}
+.page1 h1 {
+  font-size: 8vw;
+  font-weight: 400;
+  margin-top: 16vw;
+  margin-left: 20vw;
+}
+.page1 h2 {
+  font-size: 8vw;
+  font-weight: 300;
+  margin-left: 33vw;
+  margin-top: -4vw;
+}
+.hero {
+  display: flex;
+}
+.page1 img {
+  height: 600px;
+  width: 550px;
+  position: absolute;
+  left: 55vw;
+  top: -2vw;
+}
+.page2 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ade8f4;
+}
+.page2 h2,
+h3 {
+  color: #03045e;
+}
+.page2 h3 {
+  padding-top: 4vw;
+  font-weight: 300;
+  font-size: 1.3vw;
+}
+.page2 h2 {
+  padding-top: 1vw;
+  font-size: 2vw;
+  font-weight: 600;
+}
+.page2 h1 {
+  color: black;
+}
+.columns {
+  display: flex;
+  padding-top: 1vw;
+}
+.columns p {
+  font-size: 1vw;
+  font-weight: 300;
+  font-size: 16px;
+  padding-top: 1vw;
+  padding-left: 16vw;
+  color: #023e8a;
+}
+.page2 img {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  height: auto;
+}
+.page3 {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  height: min-content; /* 860px */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px 100px 100px 100px;
+  background-color: #ade8f4;
+  overflow: hidden;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.page3 img {
+  width: 150px;
+  height: auto;
+}
+.grid {
+  flex-shrink: 0;
+  width: 100%;
+  height: min-content; /* 660px */
+  display: grid;
+  max-width: 1000px;
+  overflow: hidden;
+  position: relative;
+  grid-template-columns: repeat(3, minmax(40px, 1fr));
+  justify-content: center;
+  grid-auto-rows: min-content;
+  grid-template-rows: repeat(2, min-content);
+  padding: 0px 0px 0px 0px;
+  gap: 20;
+  border-radius: 0px 0px 0px 0px;
+}
+.card {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 660px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 60px 60px 60px;
+  background-color: #97e2f1;
+  overflow: hidden;
+  position: relative;
+  grid-column: auto / span 2;
+  justify-self: center;
+  align-self: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 20;
+  border-radius: 40px;
+}
