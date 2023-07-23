@@ -9,6 +9,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  margin: 0;
 }
 
 .margin {
@@ -95,43 +96,19 @@ h3 {
 }
 .page3 {
   box-sizing: border-box;
-  flex-shrink: 0;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   height: min-content; /* 860px */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  padding: 100px 100px 100px 100px;
   background-color: #ade8f4;
-  position: relative;
-  align-content: center;
-  flex-wrap: nowrap;
-  gap: 0;
-  border-radius: 0px 0px 0px 0px;
-}
-
-.grid {
-  flex-shrink: 0;
-  width: 100%;
-  height: min-content; /* 660px */
-  display: grid;
-  max-width: 1000px;
-  overflow: hidden;
-  position: relative;
-  grid-template-columns: repeat(3, minmax(40px, 1fr));
-  justify-content: center;
-  grid-auto-rows: min-content;
-  grid-template-rows: repeat(2, min-content);
-  padding: 0px 0px 0px 0px;
-  gap: 20;
-  border-radius: 0px 0px 0px 0px;
+  padding: 20vw 20vw 0vw 20vw;
 }
 
 .card {
   display: flex;
-  width: 70%;
+  width: 100%;
   justify-content: center;
   gap: 10px;
   margin-top: 10px;
@@ -156,13 +133,60 @@ h3 {
   gap: 10px;
   margin-top: 7rem;
 }
-.page3 {
-  height: 100vh;
-}
+
 .card h2 {
   color: #023e8a;
   font-weight: 400;
 }
 .card h1 {
   color: #03045e;
+}
+.page4 {
+  min-height: 100vh;
+  padding: 10vw 20vw 0vw 20vw;
+  background-color: #ade8f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.card2 img {
+  width: 180px;
+  height: 180px;
+}
+.page5 {
+  min-height: 100vh;
+  background-color: #ade8f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page5 h1 {
+  font-size: 3vw;
+  font-weight: 600;
+  padding-top: 6vw;
+  color: #023e8a;
+}
+.page5 h3 {
+  font-size: 1.3vw;
+  font-weight: 300;
+  padding-top: 1vw;
+  color: #023e8a;
+  text-align: center;
+}
+.page5 button {
+  background-color: black;
+  color: #48cae4;
+  border: none;
+  border-radius: 10px;
+  padding: 1vw 2vw 1vw 2vw;
+  margin-top: 2vw;
+  font-size: 1.3vw;
+  font-weight: 300;
 }
