@@ -9,7 +9,6 @@ html,
 body {
   height: 100%;
   width: 100%;
-  margin: 0;
 }
 
 .margin {
@@ -38,7 +37,7 @@ body {
 }
 .hero_title {
   flex: 1;
-  padding-top: 10vw;
+  padding-top: 7vw;
   padding-left: 20vw;
 }
 .hero_title h1 {
@@ -67,7 +66,7 @@ body {
   width: auto;
   position: absolute;
   left: 58vw;
-  top: 15vw;
+  top: 16vw;
 }
 .page2 {
   min-height: 100vh;
@@ -106,8 +105,10 @@ h3 {
 .page2 img {
   display: block;
   margin: 0 auto;
-  max-width: 60%;
+  max-width: 30%;
   height: auto;
+  padding-top: 4vw;
+  padding-bottom: 5vw;
 }
 .page3 {
   box-sizing: border-box;
@@ -118,7 +119,14 @@ h3 {
   flex-direction: column;
   align-items: center;
   background-color: #ade8f4;
-  padding: 20vw 20vw 0vw 20vw;
+  padding: 3vw 20vw 0vw 20vw;
+}
+
+.page3 img {
+  width: 60%;
+  height: auto;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 
 .card {
@@ -131,13 +139,13 @@ h3 {
 .Left_card {
   flex: 1;
   background-color: #97e2f1;
-  padding: 3rem;
+  padding: 2.5rem;
   border-radius: 20px;
 }
 
 .Right_card {
   background-color: #97e2f1;
-  padding: 3rem;
+  padding: 2.5rem;
   border-radius: 20px;
 }
 
@@ -227,7 +235,7 @@ h3 {
   align-items: center;
 }
 footer {
-  padding-top: 10vw;
+  padding-top: 5vw;
   width: 50%;
   display: flex;
   justify-content: space-between;
@@ -251,3 +259,101 @@ footer {
   display: block;
   padding: 0.7vw;
 }
+
+/* Add a media query for smaller screen sizes */
+@media screen and (max-width: 768px) {
+  .margin {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vw;
+  }
+  .hero_title {
+    padding: 10vw;
+  }
+  .hero_title h1 {
+    font-size: 9vw;
+  }
+  .hero_title h2 {
+    font-size: 0.9rem;
+  }
+  .hero_button {
+    font-size: 0.7rem;
+  }
+  .page1 img {
+    height: auto;
+    width: 50%;
+    top: 60%;
+    left: 25%;
+  }
+  .page2 img {
+    max-width: 60%;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
+
+  .page2 h3,
+  h1 {
+    font-size: 1rem;
+  }
+  .columns {
+    display: block;
+    padding-top: 5vw;
+  }
+  .columns p {
+    padding-left: 0;
+    padding-top: 4vw;
+    font-size: 0.9rem;
+  }
+  .card {
+    width: 130%;
+  }
+  .Left_card {
+  }
+
+  .page2 h2 {
+    font-size: 1.2rem;
+  }
+  .page3 img {
+    width: 100%;
+  }
+  .page5 h1 {
+    font-size: 2rem;
+    padding: 4vw;
+  }
+  .page5 h3 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-bottom: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  .page5 button {
+    font-size: 0.8rem;
+    padding: 2vw;
+  }
+  .card,
+  .card2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .Left_card,
+  .Right_card {
+    width: 100%;
+  }
+  .footer {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0vw 10vw 0vw 10vw;
+    font-size: 0.9rem;
+  }
+  .footer_bottom {
+    width: 100%;
+    padding: 0vw 10vw 0vw 10vw;
+    font-size: 0.8rem;
+  }
+}
+
+/* The rest of the CSS remains the same as before */
+/* ... */
