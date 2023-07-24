@@ -236,11 +236,11 @@ h3 {
   align-items: center;
 }
 footer {
-  padding-top: 5vw;
+  padding-top: 4vw;
   width: 50%;
   display: flex;
   justify-content: space-between;
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 .footer a {
   display: block;
@@ -253,12 +253,13 @@ footer {
 
 .footer_bottom {
   margin-top: 2rem;
+  margin-bottom: 2.5rem;
   width: 50%;
 }
 .footer_bottom p {
   color: black;
   display: block;
-  padding: 0.7vw;
+  padding: 0.3vw;
 }
 
 /* Add a media query for smaller screen sizes */
@@ -266,29 +267,28 @@ footer {
   .margin {
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-bottom: 10vw;
+    margin-bottom: 5vw;
   }
   .hero_title {
     padding: 10vw;
-    position: relative;
   }
   .hero_title h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     padding-bottom: 2vw;
   }
   .hero_title h2 {
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 300;
     padding-bottom: 4vw;
   }
   .hero_button {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding: 2.5vw;
   }
   .page1 img {
     height: auto;
     width: 50%;
-    position: absolute;
     padding-top: 65%;
     padding-bottom: 0;
     left: 25vw;
@@ -301,8 +301,8 @@ footer {
 
   .page2 h3,
   h1 {
-    font-size: 1.2rem;
-    padding-top: 6vw;
+    font-size: 1.5rem;
+    padding-top: 5vw;
     padding-bottom: 3vw;
   }
 
@@ -313,33 +313,33 @@ footer {
   .columns p {
     padding-left: 0;
     padding-top: 2vw;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
   .card {
     width: 130%;
   }
 
   .page2 h2 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
   .page3 img {
     width: 100%;
   }
 
   .page5 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 4vw;
   }
   .page5 h3 {
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     font-weight: 400;
     padding-bottom: 5vw;
     margin-left: 10vw;
     margin-right: 10vw;
   }
   .page5 button {
-    font-size: 0.8rem;
-    padding: 2vw;
+    font-size: 1.2rem;
+    padding: 2.5vw;
   }
   .card,
   .card2 {
