@@ -12,6 +12,17 @@ body {
 }
 .main {
   width: 100%;
+  background-image: url(./Asset\ 1@3x.png);
+}
+
+.icon {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background-image: url(./Asset\ 2@4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .margin {
