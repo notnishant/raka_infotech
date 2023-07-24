@@ -10,6 +10,9 @@ body {
   height: 100%;
   width: 100%;
 }
+.main {
+  width: 100%;
+}
 
 .margin {
   margin-left: 20%;
@@ -17,12 +20,39 @@ body {
 }
 
 .page1 {
-  min-height: 100vh;
-  width: 100%;
+  height: 100vh;
   background-color: #0077b6;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 4vw 10vw 7vw;
 }
+
+.home h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+.home h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-bottom: 1vw;
+}
+.home button {
+  background-color: black;
+  color: #48cae4;
+  border: none;
+  border-radius: 10px;
+  padding: 1.1vw;
+  margin-top: 2vw;
+  font-size: 1.3vw;
+  font-weight: 300;
+}
+
 #nav {
   height: 100px;
+  background-color: #0077b6;
+  width: 100%;
   display: flex;
   align-items: end;
   justify-content: space-between;
@@ -34,40 +64,16 @@ body {
 
 .hero {
   display: flex;
-}
-.hero_title {
-  flex: 1;
-  padding-top: 5vw;
   padding-left: 20vw;
+  padding-right: 20vw;
 }
-.hero_title h1 {
-  font-size: 5.5rem;
-  font-weight: 600;
-  padding-bottom: 0.8vw;
-}
-.hero_title h2 {
-  font-size: 1.5rem;
-  font-weight: 300;
-  padding-bottom: 1vw;
-}
-.hero_button {
-  background-color: black;
-  color: #48cae4;
-  border: none;
-  border-radius: 10px;
-  padding: 1vw 2vw 1vw 2vw;
-  margin-top: 2vw;
-  font-size: 1.3vw;
-  font-weight: 300;
+.page1 img {
+  width: 22rem;
+  padding-top: 7vw;
+  /* height: 5rem; */
+  /* margin: 0; */
 }
 
-.page1 img {
-  height: 400px;
-  width: auto;
-  position: absolute;
-  left: 58vw;
-  top: 16vw;
-}
 .page2 {
   min-height: 100vh;
   width: 100%;
@@ -262,36 +268,37 @@ footer {
   padding: 0.3vw;
 }
 
-/* Add a media query for smaller screen sizes */
 @media screen and (max-width: 768px) {
   .margin {
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-bottom: 5vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 2vw;
   }
-  .hero_title {
-    padding: 10vw;
+  .hero {
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-bottom: 7vw;
   }
-  .hero_title h1 {
+  .home h1 {
     font-size: 2.5rem;
     font-weight: 600;
     padding-bottom: 2vw;
   }
-  .hero_title h2 {
-    font-size: 1rem;
+  .home h2 {
+    font-size: 1.4rem;
     font-weight: 300;
     padding-bottom: 4vw;
   }
-  .hero_button {
-    font-size: 1.2rem;
-    padding: 2.5vw;
+  .home button {
+    font-size: 1.4rem;
+    padding: 3vw;
   }
+
   .page1 img {
-    height: auto;
-    width: 50%;
-    padding-top: 65%;
-    padding-bottom: 0;
-    left: 25vw;
+    width: 15rem;
+    padding-top: 7vw;
+    /* height: 5rem; */
+    /* margin: 0; */
   }
   .page2 img {
     max-width: 60%;
@@ -383,11 +390,7 @@ footer {
   .hero_button {
     font-size: 1.2rem;
   }
-  .page1 img {
-    height: auto;
-    width: 40%;
-    position: absolute;
-  }
+
   .page2 img {
     max-width: 60%;
     padding-top: 10vw;
@@ -469,6 +472,3 @@ footer {
     font-size: 1.2rem;
   }
 }
-
-/* The rest of the CSS remains the same as before */
-/* ... */
