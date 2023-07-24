@@ -165,6 +165,7 @@ h3 {
   color: #03045e;
 }
 .page4 {
+  height: 100%;
   min-height: 100vh;
   padding: 10vw 20vw 0vw 20vw;
   background-color: #ade8f4;
@@ -269,6 +270,7 @@ footer {
   }
   .hero_title {
     padding: 10vw;
+    position: relative;
   }
   .hero_title h1 {
     font-size: 9vw;
@@ -282,8 +284,9 @@ footer {
   .page1 img {
     height: auto;
     width: 50%;
-    top: 60%;
-    left: 25%;
+    position: absolute;
+    padding-top: 70vw;
+    left: 25vw;
   }
   .page2 img {
     max-width: 60%;
@@ -307,8 +310,6 @@ footer {
   .card {
     width: 130%;
   }
-  .Left_card {
-  }
 
   .page2 h2 {
     font-size: 1.2rem;
@@ -316,6 +317,7 @@ footer {
   .page3 img {
     width: 100%;
   }
+
   .page5 h1 {
     font-size: 2rem;
     padding: 4vw;
@@ -352,6 +354,111 @@ footer {
     width: 100%;
     padding: 0vw 10vw 0vw 10vw;
     font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .margin {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vw;
+  }
+  .hero_title {
+    padding: 10vw;
+    position: relative;
+  }
+  .hero_title h1 {
+    font-size: 4rem;
+  }
+  .hero_title h2 {
+    font-size: 1.2rem;
+  }
+  .hero_button {
+    font-size: 1.2rem;
+  }
+  .page1 img {
+    height: auto;
+    width: 40%;
+    position: absolute;
+  }
+  .page2 img {
+    max-width: 60%;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
+  .page2 h3,
+  h1 {
+    font-size: 2rem;
+  }
+  .columns {
+    display: block;
+    padding-top: 5vw;
+  }
+  .columns p {
+    padding-left: 0;
+    padding-top: 4vw;
+    font-size: 0.9rem;
+  }
+  .card {
+    width: 130%;
+  }
+  .page2 p {
+    font-size: 1.8rem;
+  }
+  .page2 h2 {
+    font-size: 2.2rem;
+  }
+  .page3 img {
+    width: 100%;
+    padding-bottom: 10vw;
+  }
+  .page4 {
+    min-height: 100vh;
+    height: 100%;
+  }
+  .page5 h1 {
+    font-size: 2.5rem;
+    padding: 0vw 4vw 0vw 4vw;
+  }
+  .page5 h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  .page5 button {
+    font-size: 1.5rem;
+    padding: 2vw;
+  }
+  .card,
+  .card2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .Left_card,
+  .Right_card {
+    width: 100%;
+  }
+  .card2 {
+    padding: 0;
+    margin: 0;
+  }
+  .card2 img {
+    width: 50%;
+  }
+
+  .footer {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0vw 10vw 0vw 10vw;
+    font-size: 1.4rem;
+  }
+  .footer_bottom {
+    width: 100%;
+    padding: 5vw 10vw 0vw 10vw;
+    font-size: 1.2rem;
   }
 }
 
