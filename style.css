@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   color: white;
 }
 html,
@@ -37,13 +37,13 @@ body {
 }
 .hero_title {
   flex: 1;
-  padding-top: 7vw;
+  padding-top: 5vw;
   padding-left: 20vw;
 }
 .hero_title h1 {
-  font-size: 5vw;
+  font-size: 5.5rem;
   font-weight: 600;
-  padding-bottom: 0.4vw;
+  padding-bottom: 0.8vw;
 }
 .hero_title h2 {
   font-size: 1.5rem;
