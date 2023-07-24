@@ -273,19 +273,24 @@ footer {
     position: relative;
   }
   .hero_title h1 {
-    font-size: 9vw;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 2vw;
   }
   .hero_title h2 {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    font-weight: 300;
+    padding-bottom: 4vw;
   }
   .hero_button {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .page1 img {
     height: auto;
     width: 50%;
     position: absolute;
-    padding-top: 70vw;
+    padding-top: 65%;
+    padding-bottom: 0;
     left: 25vw;
   }
   .page2 img {
@@ -296,16 +301,19 @@ footer {
 
   .page2 h3,
   h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding-top: 6vw;
+    padding-bottom: 3vw;
   }
+
   .columns {
     display: block;
     padding-top: 5vw;
   }
   .columns p {
     padding-left: 0;
-    padding-top: 4vw;
-    font-size: 0.9rem;
+    padding-top: 2vw;
+    font-size: 1.1rem;
   }
   .card {
     width: 130%;
